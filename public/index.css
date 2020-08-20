@@ -1,0 +1,96 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: #0a5efb !important;
+  background-image: url(./assets/images/textura.png);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 3em;
+  font-weight: 900;
+  text-align: center;
+  color: #ffbf00;
+  text-shadow: 0 -1px 0 #fffa6d, #001b51 3px 0 0, #001b51 2.83487px 0.981584px 0,
+    #001b51 2.35766px 1.85511px 0, #001b51 1.62091px 2.52441px 0,
+    #001b51 0.705713px 2.91581px 0, #001b51 -0.287171px 2.98622px 0,
+    #001b51 -1.24844px 2.72789px 0, #001b51 -2.07227px 2.16926px 0,
+    #001b51 -2.66798px 1.37182px 0, #001b51 -2.96998px 0.42336px 0,
+    #001b51 -2.94502px -0.571704px 0, #001b51 -2.59586px -1.50383px 0,
+    #001b51 -1.96093px -2.27041px 0, #001b51 -1.11013px -2.78704px 0,
+    #001b51 -0.137119px -2.99686px 0, #001b51 0.850987px -2.87677px 0,
+    #001b51 1.74541px -2.43999px 0, #001b51 2.44769px -1.73459px 0,
+    #001b51 2.88051px -0.838247px 0;
+}
+
+.icon {
+  content: url("./assets/icons/twitter-64.ico");
+  width: 64px;
+  height: 64px;
+  margin: 10px;
+}
+
+main {
+  width: 75%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -2px 2px 4px 0 rgba(0, 0, 0, 0.8);
+  padding: 20px 20px;
+}
+
+main textarea {
+  font-size: 16px;
+  color: white;
+  font-family: nunito;
+  background-color: #9fbdc9;
+  height: 75px;
+  border: 3px #5d8899 solid;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+main button {
+  max-width: 150px;
+  margin: 0 auto;
+  margin-top: 15px;
+  background-color: #ffbf00;
+
+  cursor: pointer;
+
+  border: none;
+  border-top-color: initial;
+  border-top-style: none;
+  border-top-width: initial;
+  border-right-color: initial;
+  border-right-style: none;
+  border-right-width: initial;
+  border-bottom-color: initial;
+  border-bottom-style: none;
+  border-bottom-width: initial;
+  border-left-color: initial;
+  border-left-style: none;
+  border-left-width: initial;
+  border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+
+  border-top-color: #ffe100;
+  border-bottom-color: #f88700;
+  border-radius: 34px;
+  border-top: 2px transparent solid;
+  border-bottom: 2px transparent solid;
+
+  box-shadow: 0 0 0 5px #002043;
+}
